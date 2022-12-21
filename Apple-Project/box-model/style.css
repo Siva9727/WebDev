@@ -1,0 +1,25 @@
+.box{
+    border: 5px solid black;
+    padding: 26px;
+    /* margin: 22px; */
+    width: 200px; 
+    box-sizing: border-box;
+}
+.box1{
+    border: 5px solid black;
+    padding: 26px;
+    /* margin: 22px; */
+    width: 200px; 
+    box-sizing: border-box;
+}
+div{
+    display: inline-block;
+}
+.nav li{
+    display: inline-block
+    
+}
+.nav{
+    background-color: aliceblue;
+    padding: 20px;
+}

@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+    background-color: aquamarine;
+    width: 100vw;
+    border: 1px solid black;
+    font-size: 2em;
+}
+div{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

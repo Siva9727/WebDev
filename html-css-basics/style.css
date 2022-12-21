@@ -1,0 +1,30 @@
+/* descentant selector(space) */
+div p{
+    color: blue;
+}
+
+/*Child selector(>)*/
+div > p{
+    color: red;
+}
+::marker{
+    color: red;
+}
+button{
+    background-color: red;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+    
+}
+/* attribute selector */
+input[type="text"]{
+    color: blue;
+    font-size: 15px;
+}

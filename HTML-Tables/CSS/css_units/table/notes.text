@@ -1,0 +1,3 @@
+HTML table as name says, it's used to create tables.
+colspan: used to merge columns in a table 
+rowspan: used to merge rows in a table

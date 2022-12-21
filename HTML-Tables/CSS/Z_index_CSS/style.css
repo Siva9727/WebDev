@@ -1,0 +1,24 @@
+.a,.b,.c,.d{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+}
+.a{
+    background-color: brown;
+    left: 10px;
+}
+.b{
+    background-color: aqua;
+    left: 20px;
+    z-index: 1;
+}
+.c{
+    background-color: aliceblue;
+    left: 30px;
+    z-index: 2;
+}
+.d{
+    background-color: blueviolet;
+    left: 40px;
+}

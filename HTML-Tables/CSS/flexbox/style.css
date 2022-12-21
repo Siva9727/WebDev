@@ -1,13 +1,17 @@
 .flex-container {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     background-color: antiquewhite;
     height: 300px;
     width: 100vw;
+    /* flex-wrap: nowrap; */
+    flex-flow: row nowrap;
   }
 .flex-container .item{
-  width: 31vw;
-    height: 160px;
-    background-color: blue;
-    margin: 70px 10px;
+  width: 30vw;
+  height: 160px;
+  background-color: blue;
+  margin: 70px 10px;
+  color: white;
+  font-size: 20px;
 }

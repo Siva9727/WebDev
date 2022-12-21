@@ -1,15 +1,19 @@
 .flex-container {
-    display: flex;
-    /* flex-direction: row; */
-    background-color: antiquewhite;
-    height: 300px;
-    width: 100vw;
-    /* flex-wrap: nowrap; */
-    flex-flow: row nowrap;
-  }
-.flex-container .item{
-  width: 30vw;
-  height: 160px;
+  display: flex;
+  /* flex-direction: row; */
+  background-color: antiquewhite;
+  height: 300px;
+  width: 100vw;
+  /* flex-wrap: nowrap; */
+  flex-flow: row nowrap;
+  justify-content: space-around; /* content align with respect to x axis  */
+  align-content: center; /* content align with respect to y axis, works only when multiple flex items present and flex-flow is wrap or wrap-reversed  */
+  /* align-items: center; */   /*align the content wrt y axis. */
+  /* gap: 20px; */ /*it gives space between items */
+}
+.flex-container .item {
+  width: 20vw;
+  height: 100px;
   background-color: blue;
   margin: 70px 10px;
   color: white;

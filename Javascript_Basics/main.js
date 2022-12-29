@@ -26,3 +26,21 @@ function print() {
     console.log("hello, world!");
 }
 print();
+//parameterized function
+function x(number) {
+    console.log(number);
+}
+x(88);
+function multi(a,b) {
+    return a*b;
+}
+var result = multi(5,4);
+console.log(result);
+
+//function expression
+var showMessage = function() {
+    console.log("hi");
+}
+showMessage();
+console.log(showMessage);
+console.log(typeof showMessage);

@@ -44,3 +44,35 @@ var showMessage = function() {
 showMessage();
 console.log(showMessage);
 console.log(typeof showMessage);
+
+//type conversion and cohersion 
+//cohersion : js automatically converts the data type
+//conversion: if it is done manually (like typecast in JAVA)
+let xx = 10;
+let y = '20';
+console.log(xx+y); // xx is automatically converted as string 
+console.log(y-xx); // automatically converted to integer 
+
+console.log(xx+y);
+Number(y);// conversion 
+console.log(typeof Number(y));
+
+//Arrays in js
+let arr=[1,23,4,5];
+console.log(arr);
+// arr.push("siva");
+// console.log(arr);
+
+//objects in js(Just like class in JAVA)
+let obj = {
+    //properties
+    name:"abc",
+    age:26,
+    //methods 
+    study: function(){
+        console.log("hi");
+    }
+}
+
+console.log(obj.age);
+obj.study();

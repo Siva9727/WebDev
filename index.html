@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>SigUp Form</h1>
+   <form id="register" autocomplete="on">
+    <label for="Fname"><b>FirstName</b></label>
+    <input type="text" name="FirstName" id="Fname" placeholder="Firstname">
+    <br><br>
+    <label for="Lname"><b>Lname</b></label>
+    <input type="text" name="Lastname" placeholder="lastname" id="Lname">
+    <br><br>
+ 
+    <label for="male"><b>Male</b></label>
+    <input type="radio" name="gender"id="male">
+ 
+    <label for="female"><b>FeMale</b></label>
+    <input type="radio" name="gender" id="female">
+    <br><br>
+    <label for="Email"><b>EmailId</b></label>
+    <input type="email" name="mail" id="Email" placeholder="enter you mail">
+    <br><br>
+    <label for="checkbox">science</label>
+    <input type="checkbox" name="subject" id="checkbox">
+    <label for="checkbox">mathematics</label>
+    <input type="checkbox" name="subject" id="checkbox">
+    <br><br>
+    <input type="button" value="Submit" onclick="submitForm()"></input>
+    
+    
+ 
+   </form>
+   <script>
+    function submitForm()
+    {
+        alert("form submitted")
+    }
+   </script>
+ 
+ 
+ 
+<!-- with yes and no  -->
+<!-- function formSubmission()
+{
+    let f1=document.getElementById('f1').value
+    let f2=document.getElementById('f2').value
+    let f3=document.getElementById('f3').value
+    // console.log(f1,f2,f3)
+    if(f1&& f2 && f3){
+        alert("Form Submitted")
+    }
+    else{
+        alert("all fields are reequired")
+    }    
+} -->
+</body>
+</html>

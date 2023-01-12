@@ -1,10 +1,10 @@
 
-function hello(x,fun1) {
-    console.log("hello",x);
-    fun1();
-    // console.log(fun1);
+// function hello(x,fun1) {
+//     console.log("hello",x);
+//     fun1();
+//     // console.log(fun1);
 
-}
+// }
 
 //Normal function
 // function info() {
@@ -32,10 +32,10 @@ function hello(x,fun1) {
 //     console.log(a+b);
 // }
 
-let a = 10;
-let two = (value) => {
-    console.log("my name is sivasakthi",value);
-}
+// let a = 10;
+// let two = (value) => {
+//     console.log("my name is sivasakthi",value);
+// }
 
 // hello(a,two) // normal calling 
 // let x = two;
@@ -50,5 +50,5 @@ let two = (value) => {
 // hello(10, () => {console.log("my name is sivasakthi");})
 
 // to pass the paramaterized function as parameter --> use no name function
-hello(10, () => {two(20)})
+// hello(10, () => {two(20)})
 

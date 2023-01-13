@@ -11,6 +11,7 @@ let arr = [10,20,30,40,50]
 
 // or Use spread Operator 
 
-let arr1 = [...arr];
+// let arr1 = [...arr];
+let arr1 = [1,2,...arr,5];
 
 console.log(arr1);

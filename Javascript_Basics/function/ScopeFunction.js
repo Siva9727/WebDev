@@ -14,3 +14,4 @@ d=50; // outside the function scope, it act as let
 console.log(d);
 
 // hositing happens to var, functions with normal syntax, class
+

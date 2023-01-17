@@ -31,6 +31,7 @@ console.log("outside",x);
 
 console.log(a);
 if (true) {
+    
     // still var declaration moves to the global scope 
     var a = 10;
 }

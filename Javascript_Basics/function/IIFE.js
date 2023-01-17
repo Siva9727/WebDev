@@ -10,3 +10,10 @@
 (function(){
     console.log("hello");
 })();
+
+// return 
+let ans = (function(a,b){
+    return a*b;
+})(5,4);
+
+console.log(ans)

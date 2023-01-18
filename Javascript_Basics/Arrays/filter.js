@@ -10,7 +10,7 @@
 //     return newArr;
 // }
 
-let a = [1,2,3,4,6]
+let a = [10,20,30,40,60]
 // let isEven = (x) => x % 2 === 0;
 
 // let ans = customFilter(a,isEven)
@@ -19,8 +19,18 @@ let a = [1,2,3,4,6]
 
 //use inbuilt filter fuction
 
-let newArray = a.filter((value,index) => {
-    console.log(value,index);
-    return value%2 === 0
-})
-console.log(newArray);
+// let newArray = a.filter((value,index) => {
+//     console.log(value,index);
+//     return value%2 === 0
+// })
+// console.log(newArray);
+
+
+// reduce method
+
+let ans = a.reduce((sum,value)=>{
+    console.log(sum,value);
+    return sum+value;
+},0)
+
+console.log(ans);

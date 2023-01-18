@@ -1,4 +1,4 @@
-
+// IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (IIFE)
 
 // no name function, we can call this function by immediately invoking this function
 // with arguments

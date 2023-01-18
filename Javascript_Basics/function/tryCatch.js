@@ -19,3 +19,13 @@ try {
 } catch (error) {
     console.log("Error Found");
 }
+
+// finally block will run either try or catch runs or not 
+//its independent of try and catch block 
+// while try and catch is like if-else. for every try block you have to write  catch block
+// finally always work
+finally{
+    console.log("final ");
+}
+
+// catch block will only work if there is any error in try block 

@@ -13,5 +13,11 @@ let a = [1,2,3,4]
 
 //there is an inbuilt function for this in javascript , ie map
 
-let ans =  a.map((value)=> value*2)
+let ans =  a.map((value,index)=> {
+    console.log(value,index);
+    return value*2;
+})
 console.log(ans);
+
+// map is also a higher order function
+// it acts like a for loop{replacement for for-loop}

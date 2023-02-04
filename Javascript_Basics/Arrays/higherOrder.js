@@ -10,3 +10,4 @@ function higherOrder(fun,a,b) {
 
 let ans = higherOrder(sum,10,20)
 console.log(ans);
+// important topic

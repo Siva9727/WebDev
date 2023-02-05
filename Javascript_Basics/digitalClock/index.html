@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+</head>
+<body>
+    <h1>Clock</h1>
+    <p></p>
+
+
+    <script>
+        
+        function clock(){
+        let p = document.querySelector('p')
+        let date_time = new Date();
+        let hr = date_time.getHours();
+        let min = date_time.getMinutes();
+        let sec = date_time.getSeconds();
+        p.innerHTML = `${hr}: ${min}: ${sec}`
+        }
+
+        setInterval(clock,1000)   // arguments 1. will be function or callback , second one will be time interval
+        
+        
+    </script>
+</body>
+</html>

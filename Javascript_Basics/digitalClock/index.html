@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Clock</title>
 </head>
 <body>
     <h1>Clock</h1>
     <p></p>
+    <button>0</button>
 
 
     <script>
+
+        let btn = document.querySelector('button')
+        btn.addEventListener('click',update)
+
+        function update(){
+            let count = Number(btn.innerHTML);
+            count++;
+            btn.innerHTML = count;
+        }
         
         function clock(){
         let p = document.querySelector('p')
@@ -23,7 +34,7 @@
         }
 
         setInterval(clock,1000)   // arguments 1. will be function or callback , second one will be time interval
-        
+
         
     </script>
 </body>

@@ -32,12 +32,16 @@
 // let { name:x, age:y, place:z } = obj;
 // console.log(x,y,z);
 
-let arr = [
-    {name:"siva", age:20},
-    {name:"sakthi", age:25},
-    {name:"sra", age:27}
-]
+// let arr = [
+//     {name:"siva", age:20},
+//     {name:"sakthi", age:25},
+//     {name:"sra", age:27}
+// ]
 
-// let [a,b,c] = arr
-let [{name:a1, age:a2},b,c] = arr
-console.log(a1,a2,b,c);
+// // let [a,b,c] = arr
+// let [{name:a1, age:a2},b,c] = arr
+// console.log(a1,a2,b,c);
+
+
+
+
